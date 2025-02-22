@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.stopwatch {
+  font-size: 2rem;
+  background: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+#startPause {
+  background: linear-gradient(45deg, #28a745, #4caf50);
+}
+
+#reset {
+  background: linear-gradient(45deg, #d9534f, #ff4c4c);
+}
+
+#lap {
+  background: linear-gradient(45deg, #007bff, #1e90ff);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #ddd;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+#startPause:hover {
+  background: linear-gradient(45deg, #4caf50, #28a745);
+  transform: scale(1.05);
+}
+
+#reset:hover {
+  background: linear-gradient(45deg, #ff4c4c, #d9534f);
+  transform: scale(1.05);
+}
+
+#lap:hover {
+  background: linear-gradient(45deg, #1e90ff, #007bff);
+  transform: scale(1.05);
+}
